@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UCSB CS Array of Talks</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+<!--[if IE]>
+<style type="text/css">
+  .clearfix {
+    zoom: 1;
+	display: block;	/* triggers hasLayout */
+    }
+</style>
+<![endif]-->
+
+	<div id="wrapper">
+		<div id="header" class="clearfix">
+			<a href="index.html"><img id="logo" src="img/logo.png" /></a>
+			<div id="tag" class="clearfix">
+				<span id="presents">presents</span><br /> <span id="cs">inspiring enthusiasm for Computer Science</span> <span id="powered">a lecture series brought to you by UCSB CS undergraduates</span>
+			</div>
+		</div>
+
+<!-- CURRENT TALK--->
+
+		<div id="toolbar5" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll active-array">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" target="_blank"><img src="img/f_logo.png" /></a>
+			</ul>
+		</div>
+		
+	 	<div id="array-5" class="content clearfix active-talk">
+			<img src="img/startups.jpg" class="clearfix right" />
+			<h1>Startups</h1>
+			<h2>From Academia to Business</h2>
+			<h4>January 23rd, 2013<br />
+				Harold Frank Hall 1132 - 5:00-7:00 PM</h4>
+			<p>Come joined esteemed personnel from local technology startups in a panel-style discussion. Both professional and student panelists will discuss their experiences working for and creating startup companies. If you have any questions about the startup experience, bring them with you and get valuable insight into the world of technology startups!<br>
+ 
+
+		<h4>Student Panel</h4>    
+			<ul>
+ 				<li><a href =" http://www.linkedin.com/in/bbzbryce">Bryce Boe</a> - AppFolio, WorldViz, Google intern</li>
+ 				<li><a href ="http://www.cs.ucsb.edu/~cgb/">Chris Bunch</a> - AppScale</li>
+ 				<li><a href="http://www.linkedin.com/pub/sarah-jones/13/357/a13">Sarah Jones</a> - Ring Revenue intern </li>
+			</ul>
+			<br>
+
+		<h4>Entrepreneur Panel</h4>
+
+			<ul>
+ 				<li><a href ="http://www.appfolio.com/about/team">Klaus Schauser</a> - AppFolio, <a href="http://www.securedocs.com/blog/2012/04/interview-with-entrepreneur-of-the-year-klaus-schauser/">2012 Entrepreneur of the Year (South Coast Business and Technology)</a></li>
+ 				<li><a href ="http://www.linkedin.com/in/mpanesis">Mike Panesis</a> - Technology Management Program</li>
+ 				<li><a href="http://phonehalo.com/bio_chris.html">Chris Herbert</a> - Phone Halo</li>
+ 				<li><a href="http://www.linkedin.com/pub/john-abraham/8/97a/880">John Abraham</a> - Redspin</li>
+			</ul> 
+
+
+			</p>
+			<p>&nbsp;</p>		
+		</div>
+
+<!-- TALK[4] -->
+
+		<div id="toolbar4" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll active-array">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" target="_blank"><img src="img/f_logo.png" /></a>
+			</ul>
+		</div>
+		
+	 	<div id="array-4" class="content clearfix">
+			<img src="img/Allosphere.jpg" class="clearfix right" />
+			<h1><a href="allosphere.html">Allosphere and Friends</a></h1>
+			<h2>Visualizing the Future</h2>
+			<h4>October 24th, 2012<br />
+				Elings Hall - 3:00-5:00 PM</h4>
+			<p>This is a special demonstration of the UCSB AlloSphere to 
+			Computer Science Undergraduates. Prof. JoAnn Kuchera-Morin, director 
+			of the <a href="http://www.allosphere.ucsb.edu/">AlloSphere research 
+			facility</a> will welcome you to this 30-foot diameter capsule built 
+			inside a 3-story near-to-anechoic (echo free) cube and demonstrate 
+			its capabilities of synthesis, manipulation, exploration and 
+			analysis of large-scale data sets. This environment can simulate 
+			virtually real sensorial perception.<br>
+			We will also have presentations and
+			demonstrations by the research labs directed
+			by the following Professors, all working
+			in the general area of interactive graphics
+			and media:
+
+<ul>
+ <li><a href ="http://www.mat.ucsb.edu/~kim/">Theodore Kim, Media Arts
+			  and Technology</a> - Computer
+			  Graphics: Physically-based Simulation</li>
+ <li><a href ="http://www.ece.ucsb.edu/~psen/">Pradeep Sen, Electrical
+			  Engineering</a> - Computer Graphics: Rendering and Image
+			  Synthesis</li>
+ <li><a href="http://www.cs.ucsb.edu/~holl">Tobias Hollerer, Computer
+			  Science</a> - Real-Time Vision and Graphics:
+			  Augmented Reality </li>
+ <li><a href="http://vislab.mat.ucsb.edu/">George Legrady, Media
+			   Arts and Technology</a> -
+			  Experimental Visualization Lab</li>
+ <li><a href="http://artsite.arts.ucsb.edu/people/faculty/novak.html">Marcos
+			  Novak, Media Arts and Technology</a> 
+			  - Transarchitecture, Interactive Media</li>
+			
+			</p>
+			<p>&nbsp;</p>		
+		</div>	
+		<p></p>
+
+<!-- TALK[3] -->
+
+		<div id="toolbar3" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll active-array">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" target="_blank"><img src="img/f_logo.png" /></a>
+			</ul>
+		</div>
+		<div id="array-3" class="content clearfix">
+			<img src="img/dennis-shasha.jpg" class="clearfix right" />
+			<h1>Dennis Shasha</h1>
+			<h2>Frustration to Innovation</h2>
+			<h4>April 9th, 2012<br />
+				Corwin Pavilion - 3:30-5:30 PM</h4>
+			<p>What drives inventions in computing? Necessity seems to play only a minor role. Anger at the way things are is much more powerful, because it leads to easier ways to work (e.g. the invention of new computer languages). A general dissatisfaction with the practical or theoretical structure of the world can open up whole new approaches to problems (complexity theory and cryptography). Finally, a genuine collaboration between people and machines can lead to an entirely new kind of engineering for devices that will travel to far-off planets or to hostile environments.</p>
+			<p>The talk will discuss the work of several inventors in computing and engineering, their inventions, and how they came up with them and how they plan to come up with more in the future. The ensuing discussion will address the fundamental nature of invention in a world partly populated by intelligent machines.</p>
+			<p>Bio:<br />Dennis Shasha is a professor of computer science at the Courant Institute of New York University where he works with biologists on pattern discovery for microarrays, combinatorial design, network inference, and protein docking; with physicists, musicians, and financial people on algorithms for time series; and on database applications in untrusted environments. Other areas of interest include database tuning as well as tree and graph matching. Because he likes to type, he has written six books of puzzles about a mathematical detective, a biography about great computer scientists, and technical books about database tuning, biological pattern recognition, time series, and statistics. He has co-authored over sixty journal papers, seventy conference papers, and fifteen patents. He has written the puzzle column for various publications including Scientific American. He is co-author of Natural Computing.</p>
+		</div>
+		<div id="toolbar2" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll active-array">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+			</ul>
+		</div>
+
+<!-- TALK[2] -->
+
+		<div id="array-2" class="content clearfix">
+			<img src="img/brian-fox.jpg" class="clearfix right" />
+			<h1><a href="brian-fox.html">Brian Fox</a></h1>
+			<h2>A <code style="text-transform: lowercase">bash</code> with Brian Fox</h2>
+			<h3>GNU Software & Entrepreneurship</h3>
+			<h4>November 16, 2011</h4>
+			<p>How can releasing free software and making money go hand in hand? Brian Fox will discuss the advantages and disadvantages of leveraging free software using his extensive experience in the free software movement and the start-up world.</p>
+			<p>Brian has over 30 years of technology and business experience.  In 2004, Brian founded The Okori Group, a consulting firm specializing in helping companies go from product concept to product realization. Prior to the Okori Group, Brian co-founded and led the technology team in a number of successful startup companies, In his career as a consultant he has completed a variety of high profile projects, including the world's first Internet banking system for Wells Fargo in 1995.   In 1985 Fox was the first employee of the Free Software Foundation (Project GNU) where he worked with Richard Stallman. During his tenure at the FSF, Fox authored the BASH shell, widely used in all modern version of *NIX, GNU Makeinfo, GNU Info, GNU Finger, and the readline and history libraries, as well as contributing significantly to GDB and Emacs.</p>
+			<p><a href="brian-fox.html">More from this talk...</a></p>
+		</div>
+
+<!-- TALK[1] -->
+
+		<div id="toolbar1" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll active-array">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+			</ul>
+		</div>
+		<div id="array-1" class="content clearfix">
+			<img src="img/kevin-fu.jpg" class="clearfix right" />
+			<h1>Kevin Fu</h1>
+			<h2>Life And Death</h2>
+			<h3>Designing Safe Software for Medicine</h3>
+			<h4>April 15, 2011</h4>
+			<p>Today it would be difficult to find a medical device that does not critically rely on computer software in its function, manufacture, or use in clinical decision making. Despite the lessons learned by the radiation accidents of the Therac-25 twenty years ago, medical devices that rely on software (e.g., drug infusion pumps, linear accelerators for radiation) continue to injure or kill patients in preventable ways.</p>
+			<p>Kevin Fu is an assistant professor in the Department of Computer Science at the University of Massachusetts Amherst.  Kevin's research has led to improvements in security and privacy of pervasive devices, promoting the vision of safer and more effective technology for consumers.  Kevin received his Ph.D. in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology.  He has served on numerous program committees of leading conferences in computer security, and has given dozens of invited talks world-wide to industry, government, and academia on the topic of security and privacy. Kevin is an Alfred P. Sloan Research Fellow, NSF CAREER Award recipient, and MIT Technology Review TR35 Innovator of the Year.  He also holds a certificate of achievement in artisanal bread making from the French Culinary Institute.</p>
+
+<!-- TALK[0] -->
+
+		</div>
+		<div id="toolbar0" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll active-array">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+			</ul>
+		</div>
+		<div id="array-0" class="content clearfix">
+			<img src="img/kent-demaine.jpg" class="right clearfix" />
+			<h1>Kent Demaine</h1>
+			<h2>To Experience is Everything</h2>
+			<h3>From Minority Report to Star Trek</h3>
+			<h4>January 26th, 2011</h4>
+			<p>Kent Demaine is the CEO of OOOii, a very successful visual effects studio that creates the futuristic interfaces you see in movies like Minority Report and Star Trek. Kent will be discussing what goes into creating those interfaces and the computer science that is used every day to make movie magic. Kent has a B.S. from the University of Virginia in Computer Science / Engineering.</p>
+		</div>
+		<div id="toolbarabout" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+			</ul>
+		</div>
+		<div id="about" class="content clearfix">
+
+
+<!-- FOOTER --->
+
+		<h3>About</h3>
+			<div class="about-col" style="margin-right: 5%;">
+			<h4>Mission</h4>
+			<p style="font-size: 1.2em;">To inspire enthusiasm for Computer&nbsp;Science, intellectual&nbsp;exchange, and&nbsp;a&nbsp;sense&nbsp;of&nbsp;community among&nbsp;CS&nbsp;undergraduates, faculty, and professionals.</p>
+			</div>
+			<div class="about-col" style="margin-right: 5%;">
+			<h4>Thanks</h4>
+			<p>We would like to thank an anonymous donor for providing the funds to make this series of talks possible.    We would also like to thank the faculty, staff and especially the undergraduate members of the UCSB CS department Undergraduate Affairs Committee for their work in organizing this series.  Finally, thanks goes out to the entire CS Department for its support.</p>
+			</div>
+			<div class="about-col">
+			<h4>Contact</h4>
+			<p>If you would like to suggest speakers, get involved in the planning of these talks, and/or have comments and criticisms, you can reach us at <a href="mailto:arrayoftalks@cs.ucsb.edu">arrayoftalks@cs.ucsb.edu</a>. You can also reach us on our <a href="http://www.facebook.com/arrayoftalks" target="_blank">Facebook page</a>.</p>
+			</div><br />
+			<div id="uac">Undergraduate Affairs Committee, 2011-2012:  Hannah Anderson, Leif Dreizler, Brian Field, undergraduate members; Benji Dunson, Greta Halle, staff; Phill Conrad, Diana Franklin, Tobias H&ouml;llerer (chair), Xifeng Yan; faculty. Web design by Brian Field.</div>
+		</div>
+		<div id="copyright" class="clearfix">
+		&copy;2012 UC Regents | <a href="http://www.cs.ucsb.edu" target="_blank">UCSB Computer Science Department</a>
+		</div>
+	</div>
+	<div id="back-top">
+	<a href="#wrapper" class="scroll">Back to Top</a>
+	</div>
+</body>
+</html>

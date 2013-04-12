@@ -1,0 +1,312 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix  { display: inline-block; }  /* for IE/Mac */
+
+body {
+	font: 15px/1.4em Helvetica, Arial;
+}
+
+p {
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+
+code {
+	font-family: "Courier New", Courier;
+}
+
+a {
+	color: #555;
+}
+
+hr {
+	color: #CCC;
+	height: 0px;
+	border-bottom: 1px #CCC solid;
+}
+
+#uac {
+	font-size: .8em;
+	width: 900px;
+	float: right;
+	border-top: 3px solid #e4e4e4;
+	padding-top: 10px;
+	line-height: 120%;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 15px 15px;
+	min-height: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#header {
+	position: relative;
+	border-bottom: 3px solid #e4e4e4;
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#header #logo {
+	float: left;
+	width: 194px;
+	height: 114px;
+}
+
+#tag {
+	float: left;
+	width: 675px;
+	position: relative;
+	left: 29px;
+	top: 10px;
+}
+
+#presents {
+	bottom: 5px;
+	position: relative;
+	left: -38px;
+	font-size: .8em;
+	color: #555;
+	visibility: hidden;
+}
+
+#cs {
+	margin-top: 1em;
+	font-size: 2em;
+	color: #ccc;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#powered {
+	float: right;
+	font-style: italic;
+	font-size: 1em;
+	color: #555;
+}
+
+#nav {
+	float: right;
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+}
+
+#nav ul {
+	float: left;
+	display: inline;
+	list-style: none;
+	padding: 15px 0;
+	margin: 0;
+}
+
+#nav ul li {
+	display: inline;
+	margin-left: 25px;
+}
+
+.array {
+	position: relative;
+	width: 100%;
+	background-color: #eee;
+	border-bottom: 3px solid #e4e4e4;
+	height: 25px;
+	padding: 0;
+	font-family: "Courier New", Courier;
+}
+
+.array ul {
+	height: 100%;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.array ul li {
+	display: inline-block;
+	width: 35px;
+	list-style-type: none;
+	margin-left: 0px;
+	float: left;
+	line-height: 23px;
+	
+}
+
+.array ul li a {
+	border-right: 1px solid #ddd;
+	position: relative;
+	height: 25px;
+	display: block;
+	text-align: center;
+	padding-right: 1px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.border-right {
+	border-right: 1px solid #ddd;
+	height: 25px;
+	width: auto ! important;
+}
+
+.array ul li a:hover {
+	background-color: #ddd;
+}
+
+.content {
+	position: relative;
+	border-bottom: 3px solid #e4e4e4;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.content h1 {
+	font: bold 50px/1.4em Helvetica, Arial;
+}
+
+.content h2 {
+	font: italic 31px/1.4em Helvetica, Arial;
+	text-transform: uppercase;
+}
+
+.content h3 {
+	font: italic 19px/1em Helvetica, Arial;
+	padding-bottom: 15px;
+}
+
+.content h4 {
+	font: bold 17px/1.6em Helvetica, Arial;
+	padding-bottom: 15px;
+}
+
+.content img {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.active-talk {
+	background: url('img/active-talk.png') bottom right repeat-x;
+	color: #1E2953;
+}
+
+.active-array {
+	background-color: #ccc;
+}
+
+.about-col {
+	width: 30%;
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+	margin-left: 15px;
+	margin-right: 0px;
+}
+
+#back-top {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	background-color: #ddd;
+	padding: 5px;
+}
+
+#back-top a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+#copyright {
+	width: 100%;
+	text-align: center;
+	font-size: .8em;
+}
+
+.about-link {
+	position: absolute;
+	right: 0px;
+	width: 55px ! important;
+	border: none ! important;
+}
+
+.facebook {
+	position: absolute;
+	right: 55px;
+	width: 40px ! important;
+	border: none ! important;
+}
+
+.about-link a {
+	border-right: none ! important;
+}
+
+/* TESTING ZONE 
+
+#header {
+	background-image: url('img/photoplacer.png');
+}
