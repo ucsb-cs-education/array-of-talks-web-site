@@ -22,13 +22,47 @@ Add a new line just like it right underneath, incrementing the number by one.  E
 
 ```
 
-(3) Next, locate the div element open tag for the most recent talk---by convention, we list them in reverse order, so it should be 
+(3) Next, locate the comment that marks the start of the detail section for the most recent talk, and the open 
+div element open tag for the most recent talk---by convention, we list them in reverse order, so it should be 
 right at the top.  E.g.:
 
 ```
+<!-- TALK[5] -->
      <div id="array-5" class="content clearfix active-talk">
 ```
 
-Copy and paste everything from there to the matching close div tag (<code>&gt;/div&gt;), and change it to
-match the details of the new event.
+Copy and paste everything from there to the matching close div tag (<code>&gt;/div&gt;) just before the comment that marks the 
+start of the subsequent talk, e.g.:
+
+```
+                </div><!-- end of TALK[5] -->
+
+<!-- TALK[4] -->
+```
+
+(4) Change all the numbers as appropriate.   Here is a (possibly incomplete) list for Talks[6], showing all the places you
+would need to change the 6 to 7 for the next talk, or other changes needed in the HTML (as opposed to the 
+text.)
+
+Opening comment:
+```
+<!-- TALK[6] -->
+```
+
+Id on div open tag:
+
+```
+<div id="array-6" class="content clearfix active-talk">
+```
+
+Replace image filename (and upload image with that name)
+
+```
+      <img src="img/talks6img_KimVollHeadShot.jpg" class="clearfix right" />
+```
+
+Closing comment:                 
+```
+  </div><!-- end of TALK[5] -->
+```
 
