@@ -21,3 +21,14 @@ Add a new line just like it right underneath, incrementing the number by one.  E
      <li><a href="#toolbar6" class="scroll active-array">[6]</a></li>
 
 ```
+
+(3) Next, locate the div element open tag for the most recent talk---by convention, we list them in reverse order, so it should be 
+right at the top.  E.g.:
+
+```
+     <div id="array-5" class="content clearfix active-talk">
+```
+
+Copy and paste everything from there to the matching close div tag (<code>&gt;/div&gt;), and change it to
+match the details of the new event.
+
