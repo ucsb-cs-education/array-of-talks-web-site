@@ -22,7 +22,29 @@ Add a new line just like it right underneath, incrementing the number by one.  E
 
 ```
 
-(3) Next, locate the comment that marks the start of the detail section for the most recent talk, and the open 
+
+(3) Next, remove the <code>active-array</code> class from the <code>&lt;li&gt;</code> element 
+for the "previous talk":
+
+Before:
+```
+     <li><a href="#toolbar5" class="scroll active-array">[5]</a></li>
+
+```
+
+After:
+```
+     <li><a href="#toolbar5" class="scroll">[5]</a></li>
+
+```
+
+The word <code>active-array</code> should ONLY be present on the <code>&lt;li&gt;</code> element for the
+talk that you want to be the "default" when the page is first brought up (i.e. the current talk, the one you
+are just now adding to the page.)
+
+
+
+(4) Next, locate the comment that marks the start of the detail section for the most recent talk, and the open 
 div element open tag for the most recent talk---by convention, we list them in reverse order, so it should be 
 right at the top.  E.g.:
 
@@ -40,7 +62,7 @@ start of the subsequent talk, e.g.:
 <!-- TALK[4] -->
 ```
 
-(4) Change all the numbers as appropriate.   Here is a (possibly incomplete) list for Talks[6], showing all the places you
+(5) Change all the numbers as appropriate.   Here is a (possibly incomplete) list for Talks[6], showing all the places you
 would need to change the 6 to 7 for the next talk, or other changes needed in the HTML (as opposed to the 
 text.)
 
