@@ -296,14 +296,33 @@ hr {
 
 .facebook {
 	position: absolute;
-	right: 55px;
+	right: 70px;
 	width: 40px ! important;
 	border: none ! important;
+	text-align:center;
 }
+
+.posters-link {
+	position: absolute;
+	right: 120px;
+	width: 70px ! important;
+	border: none ! important;
+	border-right: none ! important;
+}
+
 
 .about-link a {
 	border-right: none ! important;
 }
+
+.facebook a {
+	border-right: none ! important;
+}
+
+.posters-link a {
+	border-right: none ! important;
+}
+
 
 /* TESTING ZONE 
 
