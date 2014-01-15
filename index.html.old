@@ -6,7 +6,7 @@
 </head>
 <body>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="aot-scripts.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	
 <!--[if IE]>
 <style type="text/css">
@@ -28,10 +28,26 @@
 
 <!-- CURRENT TALK, TALK[8] Toolbar-->
 
- <div id="toolbar8" class="array clearfix toolbar active-talk-toolbar" data-talknum="8" ></div>
+		<div id="toolbar8" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll active-array">[8]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="posters-link"><a href="/posters">Posters</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 
-
- <div id="array-8" class="content clearfix active-talk" data-talknum="8">
+<div id="array-8" class="content clearfix active-talk">
   <img src="img/elizabethbelding.jpg" width="250" class="clearfix right" />
 
   <h1>Elizabeth Belding</h1>
@@ -54,7 +70,24 @@ In the United States and other Western countries, digital communication is insta
 
 <!-- CURRENT TALK, TALK[7] Toolbar-->
 
- <div id="toolbar7" class="array clearfix toolbar" data-talknum="7"></div>
+		<div id="toolbar7" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll active-array">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[8]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="posters-link"><a href="/posters">Posters</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 
 <!-- TALK[7] TEXT -->
 	 	<div id="array-7" class="content clearfix">
@@ -83,7 +116,25 @@ Security Group (Seclab)</a> "just the hackers you need" and how they are
 
 
 <!-- TALK[6] Toolbar -->
- <div id="toolbar6" class="array clearfix toolbar" data-talknum="6"></div>
+
+		<div id="toolbar6" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li
+>				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll active-array">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[8]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="posters-link"><a href="/posters">Posters</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 
 <!-- TALK[6] -->
 	 	<div id="array-6" class="content clearfix">
@@ -103,9 +154,23 @@ Game Industry, and Game Development in Computer Science Education.</p>
   		</div><!-- end of TALK[6] -->
 		
 <!-- TALK[5] -->
-
- <div id="toolbar5" class="array clearfix toolbar" data-talknum="5"></div>
-
+		<div id="toolbar5" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll active-array">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[8]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 
 	 	<div id="array-5" class="content clearfix">
 			<img src="img/startups.jpg" class="clearfix right" />
@@ -140,8 +205,24 @@ Game Industry, and Game Development in Computer Science Education.</p>
 
 <!-- TALK[4] -->
 
- <div id="toolbar4" class="array clearfix toolbar" data-talknum="4"></div>
+		<div id="toolbar4" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll active-array">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li> 
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[8]</a></li>
+			        <li>&nbsp;...&nbsp;}</li>
 
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 		
 	 	<div id="array-4" class="content clearfix">
 			<img src="img/Allosphere.jpg" class="clearfix right" />
@@ -186,8 +267,24 @@ Game Industry, and Game Development in Computer Science Education.</p>
 	
 
 <!-- TALK[3] -->
- <div id="toolbar3" class="array clearfix toolbar" data-talknum="3"></div>
 
+		<div id="toolbar3" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll active-array">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[8]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 
 		<div id="array-3" class="content clearfix">
 			<img src="img/dennis-shasha.jpg" class="clearfix right" />
@@ -200,8 +297,24 @@ Game Industry, and Game Development in Computer Science Education.</p>
 			<p>Bio:<br />Dennis Shasha is a professor of computer science at the Courant Institute of New York University where he works with biologists on pattern discovery for microarrays, combinatorial design, network inference, and protein docking; with physicists, musicians, and financial people on algorithms for time series; and on database applications in untrusted environments. Other areas of interest include database tuning as well as tree and graph matching. Because he likes to type, he has written six books of puzzles about a mathematical detective, a biography about great computer scientists, and technical books about database tuning, biological pattern recognition, time series, and statistics. He has co-authored over sixty journal papers, seventy conference papers, and fifteen patents. He has written the puzzle column for various publications including Scientific American. He is co-author of Natural Computing.</p>
 		</div>
 
- <div id="toolbar2" class="array clearfix toolbar" data-talknum="2"></div>
+		<div id="toolbar2" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll active-array">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[7]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
 
+			</ul>
+		</div>
 
 <!-- TALK[2] -->
 
@@ -218,9 +331,23 @@ Game Industry, and Game Development in Computer Science Education.</p>
 
 <!-- TALK[1] -->
 
- <div id="toolbar1" class="array clearfix toolbar" data-talknum="1"></div>
-
-
+		<div id="toolbar1" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll active-array">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[7]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
+			</ul>
+		</div>
 		<div id="array-1" class="content clearfix">
 			<img src="img/kevin-fu.jpg" class="clearfix right" />
 			<h1>Kevin Fu</h1>
@@ -230,14 +357,27 @@ Game Industry, and Game Development in Computer Science Education.</p>
 			<p>Today it would be difficult to find a medical device that does not critically rely on computer software in its function, manufacture, or use in clinical decision making. Despite the lessons learned by the radiation accidents of the Therac-25 twenty years ago, medical devices that rely on software (e.g., drug infusion pumps, linear accelerators for radiation) continue to injure or kill patients in preventable ways.</p>
 			<p>Kevin Fu is an assistant professor in the Department of Computer Science at the University of Massachusetts Amherst.  Kevin's research has led to improvements in security and privacy of pervasive devices, promoting the vision of safer and more effective technology for consumers.  Kevin received his Ph.D. in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology.  He has served on numerous program committees of leading conferences in computer security, and has given dozens of invited talks world-wide to industry, government, and academia on the topic of security and privacy. Kevin is an Alfred P. Sloan Research Fellow, NSF CAREER Award recipient, and MIT Technology Review TR35 Innovator of the Year.  He also holds a certificate of achievement in artisanal bread making from the French Culinary Institute.</p>
 
-
-
-		</div>
-
 <!-- TALK[0] -->
 
- <div id="toolbar0" class="array clearfix toolbar" data-talknum="0"></div>
+		</div>
+		<div id="toolbar0" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll active-array">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[7]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
 
+			</ul>
+		</div>
 		<div id="array-0" class="content clearfix">
 			<img src="img/kent-demaine.jpg" class="right clearfix" />
 			<h1>Kent Demaine</h1>
@@ -246,10 +386,24 @@ Game Industry, and Game Development in Computer Science Education.</p>
 			<h4>January 26th, 2011</h4>
 			<p>Kent Demaine is the CEO of OOOii, a very successful visual effects studio that creates the futuristic interfaces you see in movies like Minority Report and Star Trek. Kent will be discussing what goes into creating those interfaces and the computer science that is used every day to make movie magic. Kent has a B.S. from the University of Virginia in Computer Science / Engineering.</p>
 		</div>
+		<div id="toolbarabout" class="array clearfix">
+			<ul>
+				<li class="border-right">&nbsp;talks[] = {&nbsp;</li>
+				<li><a href="#toolbar0" class="scroll">[0]</a></li>
+				<li><a href="#toolbar1" class="scroll">[1]</a></li>
+				<li><a href="#toolbar2" class="scroll">[2]</a></li>
+				<li><a href="#toolbar3" class="scroll">[3]</a></li>
+				<li><a href="#toolbar4" class="scroll">[4]</a></li>
+				<li><a href="#toolbar5" class="scroll">[5]</a></li>
+				<li><a href="#toolbar6" class="scroll">[6]</a></li>
+				<li><a href="#toolbar7" class="scroll">[7]</a></li>
+				<li><a href="#toolbar8" class="scroll">[7]</a></li>
+				<li>&nbsp;...&nbsp;}</li>
+				<li class="about-link"><a href="#about" class="scroll">About</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>
 
-
- <div id="toolbarabout" class="array clearfix toolbar" data-talknum="-1"></div>
-
+			</ul>
+		</div>
 		<div id="about" class="content clearfix">
 
 
