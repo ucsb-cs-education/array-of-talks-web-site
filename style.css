@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
 body {
 	line-height: 1;
 }
@@ -45,13 +48,21 @@ table {
 .clearfix  { display: inline-block; }  /* for IE/Mac */
 
 body {
-	font: 15px/1.4em Helvetica, Arial;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
 }
+
+
+/*body { font: 15px/1.4em Helvetica, Arial; 
+} */
 
 p {
 	margin-top: 0em;
 	margin-bottom: 1em;
 }
+
+
 
 code {
 	font-family: "Courier New", Courier;
@@ -92,6 +103,8 @@ hr {
     visibility: hidden;
 }
 
+
+
 #header {
 	position: relative;
 	border-bottom: 3px solid #e4e4e4;
@@ -113,6 +126,8 @@ hr {
 	left: 29px;
 	top: 10px;
 }
+
+
 
 #presents {
 	bottom: 5px;
@@ -167,6 +182,8 @@ hr {
 	padding: 0;
 	font-family: "Courier New", Courier;
 }
+
+
 
 .array ul {
 	height: 100%;
@@ -323,9 +340,7 @@ hr {
 	border-right: none ! important;
 }
 
+span.bold { font-weight: bold; color: #006; }
 
-/* TESTING ZONE 
 
-#header {
-	background-image: url('img/photoplacer.png');
-}
+
