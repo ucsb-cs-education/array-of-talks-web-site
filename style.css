@@ -342,5 +342,11 @@ hr {
 
 span.bold { font-weight: bold; color: #006; }
 
+strong { font-weight: bold; color: #006; }
 
 
+table.panelPics tbody tr td {
+    text-align:center;
+    font-size:80%;
+    line-height:1em;
+}
