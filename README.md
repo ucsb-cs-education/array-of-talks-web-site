@@ -5,6 +5,9 @@ To add a new talk to the website:
 
 (1) Open index.html for editing.
 
+
+EVERYTHING BELOW THIS LINE IS OUT OF DATE!!! FIX ME!!!!
+
 (2) Locate lines like this one: <code> &lt;div id="toolbar5" class="array clearfix"&gt;</code>.
 
 You'll see one for each talk, e.g. toolbar10, toolbar9, toolbar8, toolbar7, etc.  You are looking for the highest numbered one.
