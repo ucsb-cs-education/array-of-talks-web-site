@@ -25,12 +25,6 @@ function genToolbar(lastTalk, thisTalk) {
 
 $(document).ready(function(){
 
-  $(".scroll").click(function(event){
-    event.preventDefault();
-    var offset = $($(this).attr('href')).offset().top;
-    $('html, body').animate({scrollTop:offset}, 500);
-  });
-
  // Get the talk number of the active talk
 
  var activeTalkNum = $(".active-talk-toolbar").data('talknum');
