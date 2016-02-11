@@ -47,6 +47,16 @@ table {
 
 .clearfix  { display: inline-block; }  /* for IE/Mac */
 
+.speaker-11{
+    display: block;
+    font-size: 1.5em;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
