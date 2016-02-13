@@ -11,43 +11,53 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 
 
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
-}
+	      content: '';
+	      content: none;
+	  }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .clearfix  { display: inline-block; }  /* for IE/Mac */
 
-.speaker-11{
+h1.speaker-11{
+    display: block;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+}
+
+h2.speaker-11{
     display: block;
     font-size: 1.5em;
     margin-before: 0.83em;
@@ -57,10 +67,15 @@ table {
     font-weight: bold;
 }
 
+.ugrad_row{
+    width: 425px;
+    padding-right: 50px;
+}
+
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	line-height: 1.4em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
 }
 
 
@@ -68,41 +83,41 @@ body {
 } */
 
 p {
-	margin-top: 0em;
-	margin-bottom: 1em;
+    margin-top: 0em;
+    margin-bottom: 1em;
 }
 
 
 
 code {
-	font-family: "Courier New", Courier;
+    font-family: "Courier New", Courier;
 }
 
 a {
-	color: #555;
+    color: #555;
 }
 
 hr {
-	color: #CCC;
-	height: 0px;
-	border-bottom: 1px #CCC solid;
+    color: #CCC;
+    height: 0px;
+    border-bottom: 1px #CCC solid;
 }
 
 #uac {
-	font-size: .8em;
-	width: 900px;
-	float: right;
-	border-top: 3px solid #e4e4e4;
-	padding-top: 10px;
-	line-height: 120%;
+    font-size: .8em;
+    width: 900px;
+    float: right;
+    border-top: 3px solid #e4e4e4;
+    padding-top: 10px;
+    line-height: 120%;
 }
 
 #wrapper {
-	width: 900px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding: 15px 15px;
-	min-height: 100%;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px 15px;
+    min-height: 100%;
 }
 
 .clearfix:after {
@@ -116,238 +131,238 @@ hr {
 
 
 #header {
-	position: relative;
-	border-bottom: 3px solid #e4e4e4;
-	display: block;
-	padding-top: 8px;
-	padding-bottom: 8px;
+    position: relative;
+    border-bottom: 3px solid #e4e4e4;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 #header #logo {
-	float: left;
-	width: 194px;
-	height: 114px;
+    float: left;
+    width: 194px;
+    height: 114px;
 }
 
 #tag {
-	float: left;
-	width: 675px;
-	position: relative;
-	left: 29px;
-	top: 10px;
+    float: left;
+    width: 675px;
+    position: relative;
+    left: 29px;
+    top: 10px;
 }
 
 
 
 #presents {
-	bottom: 5px;
-	position: relative;
-	left: -38px;
-	font-size: .8em;
-	color: #555;
-	visibility: hidden;
+    bottom: 5px;
+    position: relative;
+    left: -38px;
+    font-size: .8em;
+    color: #555;
+    visibility: hidden;
 }
 
 #cs {
-	margin-top: 1em;
-	font-size: 2em;
-	color: #ccc;
-	font-weight: bold;
-	font-style: italic;
+    margin-top: 1em;
+    font-size: 2em;
+    color: #ccc;
+    font-weight: bold;
+    font-style: italic;
 }
 
 #powered {
-	float: right;
-	font-style: italic;
-	font-size: 1em;
-	color: #555;
+    float: right;
+    font-style: italic;
+    font-size: 1em;
+    color: #555;
 }
 
 #nav {
-	float: right;
-	position: absolute;
-	right: 0px;
-	bottom: 10px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
 }
 
 #nav ul {
-	float: left;
-	display: inline;
-	list-style: none;
-	padding: 15px 0;
-	margin: 0;
+    float: left;
+    display: inline;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
 }
 
 #nav ul li {
-	display: inline;
-	margin-left: 25px;
+    display: inline;
+    margin-left: 25px;
 }
 
 .array {
-	position: relative;
-	width: 100%;
-	background-color: #eee;
-	border-bottom: 3px solid #e4e4e4;
-	height: 25px;
-	padding: 0;
-	font-family: "Courier New", Courier;
+    position: relative;
+    width: 100%;
+    background-color: #eee;
+    border-bottom: 3px solid #e4e4e4;
+    height: 25px;
+    padding: 0;
+    font-family: "Courier New", Courier;
 }
 
 
 
 .array ul {
-	height: 100%;
-	display: inline;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+    height: 100%;
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .array ul li {
-	display: inline-block;
-	width: 35px;
-	list-style-type: none;
-	margin-left: 0px;
-	float: left;
-	line-height: 23px;
-	
+    display: inline-block;
+    width: 35px;
+    list-style-type: none;
+    margin-left: 0px;
+    float: left;
+    line-height: 23px;
+    
 }
 
 .array ul li a {
-	border-right: 1px solid #ddd;
-	position: relative;
-	height: 25px;
-	display: block;
-	text-align: center;
-	padding-right: 1px;
-	vertical-align: middle;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
+    border-right: 1px solid #ddd;
+    position: relative;
+    height: 25px;
+    display: block;
+    text-align: center;
+    padding-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 
 .border-right {
-	border-right: 1px solid #ddd;
-	height: 25px;
-	width: auto ! important;
+    border-right: 1px solid #ddd;
+    height: 25px;
+    width: auto ! important;
 }
 
 .array ul li a:hover {
-	background-color: #ddd;
+    background-color: #ddd;
 }
 
 .content {
-	position: relative;
-	border-bottom: 3px solid #e4e4e4;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 100%;
+    position: relative;
+    border-bottom: 3px solid #e4e4e4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 
 .content h1 {
-	font: bold 50px/1.4em Helvetica, Arial;
+    font: bold 50px/1.4em Helvetica, Arial;
 }
 
 .content h2 {
-	font: italic 31px/1.4em Helvetica, Arial;
-	text-transform: uppercase;
+    font: italic 31px/1.4em Helvetica, Arial;
+    text-transform: uppercase;
 }
 
 .content h3 {
-	font: italic 19px/1em Helvetica, Arial;
-	padding-bottom: 15px;
+    font: italic 19px/1em Helvetica, Arial;
+    padding-bottom: 15px;
 }
 
 .content h4 {
-	font: bold 17px/1.6em Helvetica, Arial;
-	padding-bottom: 15px;
+    font: bold 17px/1.6em Helvetica, Arial;
+    padding-bottom: 15px;
 }
 
 .content img {
-	margin-left: 15px;
-	margin-bottom: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .active-talk {
-	background: url('img/active-talk.png') bottom right repeat-x;
-	color: #1E2953;
+    background: url('img/active-talk.png') bottom right repeat-x;
+    color: #1E2953;
 }
 
 .active-array {
-	background-color: #ccc;
+    background-color: #ccc;
 }
 
 .about-col {
-	width: 30%;
-	float: left;
+    width: 30%;
+    float: left;
 }
 
 .right {
-	float: right;
+    float: right;
 }
 
 .left {
-	float: left;
-	margin-left: 15px;
-	margin-right: 0px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 0px;
 }
 
 #back-top {
-	position: fixed;
-	bottom: 5px;
-	right: 5px;
-	background-color: #ddd;
-	padding: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: #ddd;
+    padding: 5px;
 }
 
 #back-top a {
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 
 #copyright {
-	width: 100%;
-	text-align: center;
-	font-size: .8em;
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
 }
 
 .about-link {
-	position: absolute;
-	right: 0px;
-	width: 55px ! important;
-	border: none ! important;
+    position: absolute;
+    right: 0px;
+    width: 55px ! important;
+    border: none ! important;
 }
 
 .facebook {
-	position: absolute;
-	right: 70px;
-	width: 40px ! important;
-	border: none ! important;
-	text-align:center;
+    position: absolute;
+    right: 70px;
+    width: 40px ! important;
+    border: none ! important;
+    text-align:center;
 }
 
 .posters-link {
-	position: absolute;
-	right: 120px;
-	width: 70px ! important;
-	border: none ! important;
-	border-right: none ! important;
+    position: absolute;
+    right: 120px;
+    width: 70px ! important;
+    border: none ! important;
+    border-right: none ! important;
 }
 
 
 .about-link a {
-	border-right: none ! important;
+    border-right: none ! important;
 }
 
 .facebook a {
-	border-right: none ! important;
+    border-right: none ! important;
 }
 
 .posters-link a {
-	border-right: none ! important;
+    border-right: none ! important;
 }
 
 span.bold { font-weight: bold; color: #006; }
