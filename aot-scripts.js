@@ -17,7 +17,7 @@ function genToolbar(lastTalk, thisTalk) {
 
     retval += '<li>&nbsp;...&nbsp;}</li>';
     retval += '<li class="about-link"><a href="#about" class="scroll">About</a></li>';
-    retval += '<li class="posters-link"><a href="posters">Posters</a></li>';
+    //retval += '<li class="posters-link"><a href="posters">Posters</a></li>';
     retval += '<li class="facebook"><a href="http://www.facebook.com/arrayoftalks" ><img src="img/f_logo.png" /></a></li>';
     retval += '</ul>'
     return retval;
